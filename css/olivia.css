@@ -3,7 +3,7 @@ body {
 }
 .backgroundimg {
     text-align: center;
-    background-image: url('images/olivianav.png');
+    background-image: url('.images/olivianav.png');
     min-height: 110px;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ body {
     font-size: 17px;
   }
 .topnav a:hover {
-    background-image: url('images/pinkscribble.png');
+    background-image: url('.images/pinkscribble.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
