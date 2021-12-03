@@ -43,3 +43,9 @@ footer {
   text-align: center;
   padding: 1.5px;
 }
+.logoimg {
+  width: 9%;
+  height: auto;
+  padding-left: 1%;
+  float: left;
+}
