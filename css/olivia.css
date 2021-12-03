@@ -31,14 +31,14 @@ body {
     font-size: 17px;
   }
 .topnav a:hover {
-    background-image: url('../images/pinkscribble.png');
+    background-image: url('../images/nav-hover.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
 footer {
-  background-color: gray;
+  background-color: black;
   color: white;
   text-align: center;
-  padding: 3px;
+  padding: 1.5px;
 }
