@@ -35,3 +35,9 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+footer {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 3px;
+}
