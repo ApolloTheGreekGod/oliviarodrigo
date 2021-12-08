@@ -78,6 +78,8 @@
   }
  .sticker1 {
    position: absolute;
+   width: 30%;
+   height: auto;
    top: 160%;
    left: 70%;
    z-index: 3;
