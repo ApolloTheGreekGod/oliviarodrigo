@@ -18,7 +18,7 @@
     position: absolute;
     height: auto;
     width: 37%;
-    top: 125%;
+    top: 135%;
     left: 0%;
     z-index: 2;
   }
@@ -31,9 +31,18 @@
     z-index: 2;
   }
   .biosidetext {
+      transform: rotate(-5deg);
+      font-size: 400%;
       position: absolute;
       top: 120%;
-      left: 0;
+      left: 27%;
+      z-index: 2;
+  }
+  .biosidepara1 {
+      position: absolute;
+      font-size: 120%;
+      top: 140%;
+      left: 38%;
       z-index: 2;
   }
  
