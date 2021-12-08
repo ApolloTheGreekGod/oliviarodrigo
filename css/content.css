@@ -17,7 +17,6 @@
 .biosideleft {
     position: absolute;
     height: auto;
-    width: 37%;
     top: 135%;
     left: 0%;
     z-index: 3;
@@ -40,7 +39,7 @@
   }
   .biosidepara1 {
       position: absolute;
-      font-size: 120%;
+      font-size: 160%;
       top: 140%;
       left: 38%;
       z-index: 3;
@@ -55,7 +54,16 @@
   }
  .sticker1 {
    position: absolute;
-   top: 200%;
-   left: 50%;
+   top: 160%;
+   left: 70%;
+   z-index: 3;
+ }
+ .sticker2 {
+   transform: rotate(-80deg);
+   position: absolute;
+   width: 20%;
+   height: auto;
+   top: 115%;
+   left: 68%;
    z-index: 3;
  }
