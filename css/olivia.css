@@ -6,7 +6,7 @@ body {
 .backgroundimg {
     text-align: center;
     background-image: url('../images/olivianav.png');
-    min-height: 19%;
+    min-height: 18%;
     height: max-content;
     width: 100%;
     background-position: center;
