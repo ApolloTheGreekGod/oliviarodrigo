@@ -2,7 +2,10 @@
     <head>
         <link rel="stylesheet" href="css/olivia.css">
         <link rel="stylesheet" href="css/content.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="javascript/imageover.js"></script>
+        <script src="javascript/main.js"></script>
+        <script src="javascript/navbarscroll.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Olivia Rodrigo | Home</title>
         <link rel="icon" href="images/olivia-icon.jpg" type="image/jpeg">
@@ -27,11 +30,11 @@
         <br>
         <img src="images/bio-bg.png" alt="bio paper side" class="biosidepaper">
         <br>
-        <img src="images/bio-side-image5-pic.png" alt="bio left side"  width="37%" class="biosideleft" onmouseover="BioHover(this);" onmouseout="BioUnHover(this);">
+        <img src="images/bio-side-image5-pic.png" alt="bio left side" id="biosideleft" width="37%" class="tag biosideleft" onmouseover="BioHover(this);" onmouseout="BioUnHover(this);">
         <br>
-        <p class="biosidetext">Bio</p>
+        <p class="tag biosidetext">Bio</p>
         <br>
-        <p class="biosidepara1">
+        <p class="tag biosidepara1">
             hi there! This is livia! I’m 18 years old<br>
             and writing songs is my favorite thing to do <br>
             in the world. I’ve been doing it for as long as<br>
