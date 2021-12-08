@@ -35,17 +35,19 @@ body {
     font-size: 20px;
   }
 .topnav a:hover {
-    background-image: url('../images/nav-hover.png');
+    background-image: url('../images/nav-hover2a.png');
     background-repeat: no-repeat;
     display: inline-block;
     background-position: center;
     background-size: 100%;
 }
 footer {
+  position: relative;
   background-color: black;
   color: white;
   text-align: center;
   padding: 1.5px;
+  z-index: 3;
 }
 .logoimg {
   width: 9%;
@@ -57,37 +59,7 @@ footer {
   height: auto;
   width: 100%;
   position: absolute;
-  top: 110%;
+  top: 100%;
   left: 0;
-  z-index: 2;
-}
-.biosideleft {
-  position: absolute;
-  height: auto;
-  width: 37%;
-  top: 125%;
-  left: 0%;
-}
-.biosidepaper {
-  position: absolute;
-  height: auto;
-  width: 100%;
-  top: 110%;
-  left: 0;
-}
-.tourdesk {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  left: 0;
-  top: 9%;
-  z-index: 1;
-}
-.tourtext {
-  position: absolute;
-  width: 45%;
-  height: auto;
-  left: 45%;
-  top: 20%;
   z-index: 2;
 }

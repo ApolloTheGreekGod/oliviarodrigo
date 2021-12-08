@@ -1,0 +1,39 @@
+.tourdesk {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 9%;
+    z-index: 1;
+  }
+  .tourtext {
+    position: absolute;
+    width: 45%;
+    height: auto;
+    left: 45%;
+    top: 20%;
+    z-index: 2;
+  }
+.biosideleft {
+    position: absolute;
+    height: auto;
+    width: 37%;
+    top: 125%;
+    left: 0%;
+    z-index: 2;
+  }
+  .biosidepaper {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    top: 118%;
+    left: 0;
+    z-index: 2;
+  }
+  .biosidetext {
+      position: absolute;
+      top: 120%;
+      left: 0;
+      z-index: 2;
+  }
+ 
