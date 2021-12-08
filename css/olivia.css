@@ -6,14 +6,14 @@ body {
 .backgroundimg {
     text-align: center;
     background-image: url('../images/olivianav.png');
-    min-height: 115px;
+    min-height: 19%;
     height: max-content;
-    width: auto;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 .container1 {
     top: 25%;
@@ -61,5 +61,5 @@ footer {
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 2;
+  z-index: 3;
 }
