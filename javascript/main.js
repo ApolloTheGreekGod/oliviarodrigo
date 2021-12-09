@@ -13,4 +13,6 @@ $(document).on("scroll", function() {
       }
     }
   });
-  
+  function SpotifySour() {
+    location.href = "https://open.spotify.com/album/6s84u2TUpR3wdUv4NgKA2j";
+  }
