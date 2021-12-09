@@ -8,9 +8,9 @@ $(document).on("scroll", function() {
   
       if ($(tag).position().top < pageBottom) {
         $(tag).addClass("visible");
-      } else {
+      } /*else {
         $(tag).removeClass("visible");
-      }
+      }*/
     }
   });
   function SpotifySour() {

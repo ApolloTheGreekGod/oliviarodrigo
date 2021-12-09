@@ -54,17 +54,20 @@
     z-index: 3;
   }
   .biosidetext {
+    font-weight: bold;
       transform: rotate(-5deg);
-      font-size: 400%;
+      font-size: 410%;
       position: absolute;
       top: 120%;
       left: 27%;
       z-index: 3;
   }
   .biosidepara1 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
       position: absolute;
       font-size: 160%;
-      top: 140%;
+      top: 145%;
       left: 38%;
       z-index: 3;
   }
@@ -130,7 +133,8 @@
   z-index: 3;
 }
 .souralbumtitle {
-  font-size: 250%;
+  font-weight: bold;
+  font-size: 280%;
   position: absolute;
   top: 335%;
   left: 50%;
@@ -138,6 +142,8 @@
   z-index: 3;
 }
 .souralbumbutton {
+  font-weight: bold;
+  font-family: 'Waiting for the Sunrise', Arial, Helvetica, sans-serif;
   transition-duration: 0.5s;
   font-size: 120%;
   text-align: center;
@@ -146,11 +152,11 @@
   background-color: rgb(199, 146, 199);
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
   margin: 4px 2px;
   display: inline-block;
-  border-radius: 14px;
+  border-radius: 30px;
   position: absolute;
   top: 350%;
   left: 50%;

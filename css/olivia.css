@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Waiting for the Sunrise', cursive, Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: #f2f4f5;
 }
@@ -27,12 +27,13 @@ body {
     overflow: hidden;
 }
 .topnav a {
+  font-weight: bold;
     float: none;
     color: black;
     text-align: center;
     padding: 20px 20px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 23px;
   }
 .topnav a:hover {
     background-image: url('../images/nav-hover2a.png');
