@@ -112,18 +112,18 @@
     position: absolute;
     width: 30%;
     height: auto;
-    top: 160%;
+    top: 171%;
     left: 70%;
     z-index: 3;
 }
 
 .sticker2 {
-    transform: rotate(-80deg);
+    transform: rotate(-82deg);
     position: absolute;
     width: 20%;
     height: auto;
-    top: 115%;
-    left: 68%;
+    top: 110%;
+    left: 72%;
     z-index: 3;
 }
 
