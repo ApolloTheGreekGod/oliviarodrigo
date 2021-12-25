@@ -205,3 +205,20 @@
     background-color: rgb(0, 0, 0);
     color: rgb(199, 146, 199);
 }
+.dlive {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 365%;
+    z-index: 4;
+}
+.dlivefilter {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0%;
+    top: 365%;
+    z-index: 5;
+    opacity: 0.3;
+}
