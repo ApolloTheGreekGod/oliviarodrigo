@@ -45,18 +45,18 @@
   right: 1.35%;
 }
 .slidesText {
-    transform: rotate(10deg);
     position: absolute;
     top: 27%;
-    left: 50%;
+    left: 45%;
     font-size: 500%;
     font-weight: bold;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
 .slidesText {
-    background-color: rgba(255, 247, 199, 0.8);
-    padding: 0.5%;
+    background-color: rgba(255, 247, 199, 0.9);
+    padding: 0.8%;
+    border-radius: 20px;
 }
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
