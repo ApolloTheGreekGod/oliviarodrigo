@@ -18,42 +18,53 @@
 
 /* Next & previous buttons */
 .prev {
-    left: 0%;
+    transform: rotate(-90deg);
+    right: 0;
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 35%;
   width: auto;
-  padding: 16px;
-  margin-top: -22px;
+  padding: 10px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  font-size: 270%;
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
+    transform: rotate(-90deg);
     cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 60%;
   width: auto;
-  padding: 16px;
-  margin-top: -22px;
+  padding: 10px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  font-size: 270%;
   user-select: none;
-  right: 0;
-  border-radius: 3px 0 0 3px;
+  right: 1.35%;
 }
-
+.slidesText {
+    transform: rotate(10deg);
+    position: absolute;
+    top: 27%;
+    left: 54%;
+    font-size: 500%;
+    font-weight: bold;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.slidesText {
+    background-color: rgba(255, 247, 199, 0.8);
+    padding: 0.5%;
+}
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+    background-image: url('../images/nav-hover2a.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: center;
+    background-size: 100%;
 }
 
 /* Fading animation */
