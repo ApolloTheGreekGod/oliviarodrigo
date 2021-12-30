@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="css/olivia.css">
     <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/slideshow.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
@@ -30,10 +31,27 @@
             </div>
             <img src="images/site-logo3.png" alt="logo" class="logoimg">
         </div>
-        <img src="images/tourDESKbg.jpeg" alt="tour background" class="tourdesk">
-        <br>
+        <!-- <img src="images/tourDESKbg.jpeg" alt="tour background" class="tourdesk">
+        
         <img src="images/tourDESKtext-1x1.png" alt="Tour text" class="tourtext">
-        <br>
+         -->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="images/traitorDESK.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              
+              <img src="images/brutalDESK3.jpg" style="width:100%">
+              
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+        </div>
+        <script src="javascript/slideshow.js"></script>
         <img src="images/header-rip-180.png" alt="paper rip" class="paperrip1">
         <br>
         <img src="images/bio-bg.png" alt="bio paper side" class="biosidepaper">
