@@ -1,0 +1,62 @@
+* {box-sizing: border-box}
+.mySlides2 {
+    display: none
+}
+.imgSlide2 {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container2 {
+  top: 365%;
+  left: 0%;
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  z-index: 4;
+}
+
+/* Next & previous buttons */
+.prev2 {
+    transform: rotate(-90deg);
+    right: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  width: auto;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 270%;
+  user-select: none;
+  z-index: 4;
+}
+
+.next2 {
+    transform: rotate(-90deg);
+    cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: auto;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 270%;
+  user-select: none;
+  right: 1.35%;
+  z-index: 4;
+}
+.prev2:hover, .next2:hover {
+    background-image: url('../images/nav-hover2a.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: center;
+    background-size: 100%;
+    z-index: 4;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev2, .next2,.text2 {font-size: 11px}
+  
+}

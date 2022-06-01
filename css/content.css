@@ -206,11 +206,7 @@
     color: rgb(199, 146, 199);
 }
 .dlive {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    left: 0;
-    top: 365%;
+    position: relative;
     z-index: 4;
 }
 .dlivefilter {
@@ -219,6 +215,6 @@
     height: auto;
     left: 0%;
     top: 365%;
-    z-index: 5;
+    z-index: 3;
     opacity: 0.3;
 }
