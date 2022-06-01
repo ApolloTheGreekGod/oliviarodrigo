@@ -44,21 +44,6 @@
   user-select: none;
   right: 1.35%;
 }
-.slidesText {
-    position: absolute;
-    top: 27%;
-    left: 45%;
-    font-size: 500%;
-    font-weight: bold;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-.slidesText {
-    background-color: rgba(255, 247, 199, 0.9);
-    padding: 0.8%;
-    border-radius: 20px;
-}
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     background-image: url('../images/nav-hover2a.png');
     background-repeat: no-repeat;
@@ -67,7 +52,7 @@
     background-size: 100%;
 }
 
-/* Fading animation */
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 0.3s;
@@ -85,6 +70,7 @@
   from {opacity: .6} 
   to {opacity: 1}
 }
+
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {

@@ -66,7 +66,7 @@
     height: auto;
     top: 135%;
     left: 0%;
-    z-index: 3;
+    z-index: 5;
 }
 
 .biosidepaper {
@@ -75,7 +75,7 @@
     width: 100%;
     top: 112%;
     left: 0;
-    z-index: 3;
+    z-index: 5;
 }
 
 .biosidetext {
@@ -85,7 +85,7 @@
     position: absolute;
     top: 120%;
     left: 27%;
-    z-index: 3;
+    z-index: 5;
 }
 
 .biosidepara1 {
@@ -95,7 +95,7 @@
     font-size: 150%;
     top: 145%;
     left: 38%;
-    z-index: 4;
+    z-index: 5;
 }
 
 .musicfont1 {
@@ -114,7 +114,7 @@
     height: auto;
     top: 165%;
     left: 70%;
-    z-index: 3;
+    z-index: 5;
 }
 
 .sticker2 {
@@ -124,7 +124,7 @@
     height: auto;
     top: 110%;
     left: 72%;
-    z-index: 3;
+    z-index: 5;
 }
 
 .tag {

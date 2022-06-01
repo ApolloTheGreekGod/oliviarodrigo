@@ -2,6 +2,7 @@ body {
     font-family: 'Waiting for the Sunrise', cursive, Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: #f2f4f5;
+    
 }
 
 .backgroundimg {
@@ -13,8 +14,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    position: relative;
-    z-index: 3;
+    position: fixed;
+    z-index: 4;
+  
 }
 
 .container1 {
@@ -70,5 +72,5 @@ footer {
     position: absolute;
     top: 95%;
     left: 0;
-    z-index: 3;
+    z-index: 5;
 }
