@@ -50,6 +50,7 @@
     display: inline-block;
     background-position: center;
     background-size: 100%;
+    cursor: url('../images/sketchpointer4.png'), pointer;
 }
 
 

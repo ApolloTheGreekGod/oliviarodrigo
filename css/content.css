@@ -146,6 +146,15 @@
     z-index: 2;
 }
 
+.papertexture {
+    position: absolute;
+    width: 100%;
+    height: auto;
+ top: 235%;
+ left: 0;   
+    z-index: 1;
+    filter: blur(1px) opacity(20%) grayscale(100%);
+}
 .tape1 {
     transform: rotate(-25deg);
     position: absolute;
@@ -204,6 +213,7 @@
     transition-duration: 0.3s;
     background-color: rgb(0, 0, 0);
     color: rgb(199, 146, 199);
+    cursor: url('../images/sketchpointer4.png'), pointer;
 }
 .dlive {
     position: relative;

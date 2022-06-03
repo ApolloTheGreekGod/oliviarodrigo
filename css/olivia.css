@@ -2,8 +2,7 @@ body {
     font-family: 'Waiting for the Sunrise', cursive, Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: #f2f4f5;
-    cursor: url('../images/sketchcursor4.png'), default;
-    
+    cursor: url('../images/sketchcursor6.png'), default;
 }
 p {
     cursor: text;
@@ -52,6 +51,7 @@ p {
     display: inline-block;
     background-position: center;
     background-size: 100%;
+    cursor: url('../images/sketchpointer4.png'), pointer;
 }
 
 footer {
@@ -78,3 +78,4 @@ footer {
     left: 0;
     z-index: 5;
 }
+

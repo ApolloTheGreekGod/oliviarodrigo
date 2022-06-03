@@ -59,6 +59,7 @@
   background-position: center;
   background-size: 100%;
   z-index: 3;
+  cursor: url('../images/sketchpointer4.png'), pointer;
 }
 
 /* On smaller screens, decrease text size */
@@ -78,11 +79,12 @@
   color: white;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: left;
   position: absolute;
   font-family: Arial, Helvetica, sans-serif;
   left: 5%;
-  top: 50%;
-  z-index: 4;
+  top: 40%;
+  z-index: 3;
 }
 
 .slidebutton {
@@ -94,18 +96,18 @@
   text-decoration: none;
   border: none;
   background-color: rgb(199, 146, 199);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin: 4px 2px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 53px;
+  padding-left: 53px;
+  margin: 30px 5px;
   display: inline-block;
   border-radius: 30px;
   position: absolute;
-  top: 50%;
-  left: 10%;
+  top: 60%;
+  left: 11%;
   transform: translate(-50%, -50%);
-  z-index: 3;
+  z-index: 4;
 }
 
 .slidebutton:hover {
@@ -113,4 +115,5 @@
   transition-duration: 0.3s;
   background-color: rgb(0, 0, 0);
   color: rgb(199, 146, 199);
+  cursor: url('../images/sketchpointer4.png'), pointer;
 }
