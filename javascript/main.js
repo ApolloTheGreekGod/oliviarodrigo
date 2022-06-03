@@ -14,5 +14,8 @@ $(document).on("scroll", function() {
     }
   });
   function SpotifySour() {
-    location.href = "https://open.spotify.com/album/6s84u2TUpR3wdUv4NgKA2j";
+    window.open("https://open.spotify.com/album/6s84u2TUpR3wdUv4NgKA2j");
+  }
+  function DriversLicense() {
+    lwindow.open("https://www.youtube.com/watch?v=f_rYWBle1_4");
   }

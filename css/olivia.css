@@ -2,7 +2,11 @@ body {
     font-family: 'Waiting for the Sunrise', cursive, Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: #f2f4f5;
+    cursor: url('../images/cursor1.png'), default;
     
+}
+p {
+    cursor: text;
 }
 
 .backgroundimg {
